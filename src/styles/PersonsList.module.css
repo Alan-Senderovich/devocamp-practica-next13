@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    flex: 1;
+    gap: 3rem;
+}
+
+.list {
+    display: flex;
+}
+
+.list li {
+    list-style: none;
+}

@@ -1,0 +1,29 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    padding: 1rem 1.5rem;
+    align-items: center;
+}
+
+.navItems {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.navItems a:hover{
+    color: #cecece;
+}
+ 
+.closeSessionBtn {
+    background-color: #ff630b;
+    cursor: pointer;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    padding: .5rem 1rem;
+    border-radius: 25px;
+}
+
+
